@@ -116,3 +116,32 @@ header h1 {
 .btn-perigo:hover {
     background-color: #c0392b;
 }
+
+.form-container select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.tarefa-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.categoria-tag {
+    font-size: 0.75rem;
+    background-color: #e3f2fd;
+    color: #1976d2;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #888;
+}
