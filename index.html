@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Rotina de Estudos | Gestão de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Minha Rotina de Estudos 📚</h1>
+        </header>
+
+        <main>
+            <!-- Form de Entrada de Tarefas -->
+            <div class="form-container">
+                <input type="text" id="campoTarefa" placeholder="Digite uma nova tarefa..." autocomplete="off">
+                <button id="btnAdicionar" onclick="adicionarTarefa()">+ Adicionar</button>
+            </div>
+
+            <!-- Lista de Tarefas -->
+            <ul id="listaTarefas" class="lista-tarefas">
+                <!-- As tarefas serão inseridas dinamicamente via JavaScript -->
+            </ul>
+
+            <!-- Botão de Ação Global -->
+            <div class="acoes-container">
+                <button id="btnLimpar" class="btn-perigo" onclick="limparTodasTarefas()">🗑️ Limpar Todas as Tarefas</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
